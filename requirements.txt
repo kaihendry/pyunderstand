@@ -1,0 +1,2 @@
+# Currently no production dependencies
+# This file exists to help Dependabot track dependencies 
