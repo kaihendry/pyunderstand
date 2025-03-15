@@ -10,4 +10,3 @@ jobs:
     - uses: astral-sh/setup-uv@v5
     - run: uv sync --dev
     - run: uv run pytest tests
-    - run: uv run coverage report
