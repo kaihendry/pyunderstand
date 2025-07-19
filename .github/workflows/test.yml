@@ -10,5 +10,6 @@ jobs:
     - uses: astral-sh/setup-uv@v6
     - uses: astral-sh/ruff-action@v3
     - run: uv sync
+    - run: uv pip install -e .
     - run: uvx pytest tests
     - run: uvx validate-pyproject ./pyproject.toml
