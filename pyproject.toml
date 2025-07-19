@@ -9,6 +9,10 @@ authors = [
 ]
 
 dependencies = []
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0"
+]
 
 [build-system]
 requires = ["hatchling"]
