@@ -1,5 +1,3 @@
-import pytest
-
 # problem is other code I work use "from shared.patterns.blah import yikes"
 from python.airflow.shared import yikes
 
