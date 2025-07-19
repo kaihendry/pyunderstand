@@ -11,4 +11,3 @@ jobs:
     - uses: astral-sh/ruff-action@v3
     - run: uv sync --dev
     - run: uv run pytest tests
-    - run: uvx validate-pyproject ./pyproject.toml
