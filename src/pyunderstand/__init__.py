@@ -1,2 +1,2 @@
 def foo() -> str:
-    return "barty"
+    return "something else"
